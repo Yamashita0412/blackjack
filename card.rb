@@ -7,7 +7,6 @@ class Card
   def self.generate_cards
     SUITS.product(NUMBERS).map { |suit, n| self.new(suit, n)}
   end
-
   def initialize(suit, number)
     @suit = suit
     @number = number
