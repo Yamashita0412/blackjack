@@ -1,6 +1,4 @@
-# require './lib/playable'
 require './playable'
-
 
 class Player
   include Playable

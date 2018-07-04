@@ -1,4 +1,3 @@
-# require './lib/playable'
 require './playable'
 
 class Dealer
