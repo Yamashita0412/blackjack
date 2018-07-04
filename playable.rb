@@ -10,4 +10,5 @@ module Playable
   def bust?
     total > 21
   end
+
 end

@@ -1,4 +1,5 @@
-require './lib/playable'
+# require './lib/playable'
+require './playable'
 
 class Dealer
   include Playable
@@ -12,4 +13,5 @@ class Dealer
   def finished?
     total >= 17
   end
+
 end

@@ -1,8 +1,12 @@
-require './lib/card'
-require './lib/dealer'
-require './lib/player'
+# require './lib/card'
+# require './lib/dealer'
+# require './lib/player'
+require './card'
+require './dealer'
+require './player'
 
 class App
+
   def self.run
     self.new.run
   end

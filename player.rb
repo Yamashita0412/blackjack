@@ -1,4 +1,6 @@
-require './lib/playable'
+# require './lib/playable'
+require './playable'
+
 
 class Player
   include Playable
@@ -25,4 +27,5 @@ class Player
   def stand?
     @stand
   end
+
 end
