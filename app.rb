@@ -1,6 +1,3 @@
-# require './lib/card'
-# require './lib/dealer'
-# require './lib/player'
 require './card'
 require './dealer'
 require './player'
